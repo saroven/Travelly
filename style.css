@@ -204,9 +204,12 @@ nav ul {
    align-items: center;
    text-align: center;
 }
+.form-wrapper h2 {
+   padding-top: 3rem;
+}
 .form-wrapper {
    background-color: rgb(19, 28, 39, 0.8);
-   width: 60%;
+   width: 50%;
    color: white;
    border-radius: 20px;
 }
@@ -232,6 +235,36 @@ nav ul {
 .form-wrapper input {
    padding: 1rem 3rem;
 }
+/* end contact section */
+/* start footer section  */
+footer {
+   background-color: rgb(19, 28, 39, 0.8);
+   color: white;
+}
+.footer-wrapper {
+   display: flex;
+   align-items: center;
+   padding: 2rem;
+   width: 90%;
+   margin: auto;
+   min-height: 10vh;
+   flex-wrap: wrap;
+}
+.footer-wrapper h5 {
+   flex: 1 1 40rem;
+}
+.footer-wrapper ul {
+   display: flex;
+   list-style: none;
+   flex: 1 1 40rem;
+   justify-content: right;
+   align-items: center;
+}
+.footer-wrapper ul li {
+   margin-right: 2rem;
+}
+/* end footer */
+
 /* Media query */
 @media screen and (max-width: 940px) {
    html {
@@ -258,5 +291,14 @@ nav ul {
       background: rgb(19, 28, 39, 0.8);
       -webkit-text-fill-color: white;
       padding: 3rem;
+   }
+   footer {
+      text-align: center;
+   }
+   footer h5 {
+      padding: 5rem;
+   }
+   .form-wrapper {
+      width: 100%;
    }
 }
